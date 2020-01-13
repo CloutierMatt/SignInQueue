@@ -1,4 +1,4 @@
-from Tkinter import *
+from tkinter import *
 from datetime import *
 
 top = Tk()
@@ -26,7 +26,7 @@ def buttonPress():
     for x in range(len(MainHolder)):
         arrayLength = x
 
-    print x
+    print (x)
 
     #Prints Inputs Onto Second Window
     global L5
@@ -46,9 +46,6 @@ def otherUpdate(stringy):
         L4.pack_forget()
         OE1.pack_forget()
     return
-
-
-
 
 #GUI for Master Window
 
